@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">It\'s On Sale!</string>
+    <string name="title_activity_main"></string>
+    <string name="original_price">Original price (e.g. 34.99)</string>
+    <string name="discount">Discount (e.g. 40)</string>
+    <string name="calculate">Calculate</string>
+    <string name="final_price">Cost after discount:</string>
+    <string name="savings">Savings:</string>
+
+</resources>
