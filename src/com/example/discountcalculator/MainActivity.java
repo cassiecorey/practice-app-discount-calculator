@@ -32,16 +32,16 @@ public class MainActivity extends Activity {
 
 
 	public void calculateSavings(View view) {
-		double original = 0;
-		int discount = 0;
-
 		EditText mOriginal = (EditText) findViewById(R.id.original_price);
 		EditText mDiscount = (EditText) findViewById(R.id.discount);
 
-		original = Double.parseDouble(mOriginal.getText().toString());
-		discount = Integer.parseInt(mDiscount.getText().toString());
-
-		calculate(original, discount);
+		if(!mOriginal.getText().toString().matches("") || !mOriginal.getText().toString().matches("")){
+			double original = 0;
+			int discount = 0;
+			original = Double.parseDouble(mOriginal.getText().toString());
+			discount = Integer.parseInt(mDiscount.getText().toString());
+			calculate(original, discount);
+		}
 	}
 
 	private void calculate(double original, int discount) {
