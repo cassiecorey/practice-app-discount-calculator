@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">It\'s On Sale!</string>
+    <string name="app_name">Discount Calculator</string>
     <string name="title_activity_main"></string>
     <string name="original_price">Original price (e.g. 34.99)</string>
     <string name="discount">Discount (e.g. 40)</string>
